@@ -5,4 +5,4 @@ Welcome to my portfolio.
 
 <video src="intro.mp4">
 <img src="profilePhoto.PNG">
-<img src="quiz_app.PNG.jpg">
+<img src="quiz_app.PNG">
