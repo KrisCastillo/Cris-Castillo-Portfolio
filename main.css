@@ -51,10 +51,6 @@ body {
     padding: 20px;
   }
 
-  .greeting {
-    font-size: 24px;
-  }
-
   #myBtn {
     font-family: 'Overlock SC', cursive;
     width: 100px;
