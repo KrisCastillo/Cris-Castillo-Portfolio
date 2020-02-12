@@ -51,7 +51,7 @@ body {
     padding: 20px;
   }
 
-  .greeting {
+  h1 {
     font-size: 24px;
   }
 
@@ -95,18 +95,18 @@ body {
     font-size: 30px;
   }
 
-  h1 {
+  h2 {
     font-family: 'Parisienne', cursive;
     font-size: 60px;
     letter-spacing: 2px;
   }
   
-  h2 {
+  h3 {
     font-family: 'Merienda', cursive;
     font-size: 30px;
   }
   
-  h1, h2 {    
+  h2, h3 {    
     color: white;
     text-align: center;
     margin: 30px 30px; 
