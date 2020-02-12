@@ -1,4 +1,4 @@
-  * {
+ * {
     box-sizing: border-box;
   } 
 
@@ -51,6 +51,10 @@ body {
     padding: 20px;
   }
 
+  .greeting {
+    font-size: 24px;
+  }
+
   #myBtn {
     font-family: 'Overlock SC', cursive;
     width: 100px;
@@ -97,12 +101,12 @@ body {
     letter-spacing: 2px;
   }
   
-  h3 {
+  h2 {
     font-family: 'Merienda', cursive;
     font-size: 30px;
   }
   
-  h1, h3 {    
+  h1, h2 {    
     color: white;
     text-align: center;
     margin: 30px 30px; 
@@ -130,7 +134,7 @@ body {
   
   .bio, .description {
       color: white;
-      text-align: justify;
+      text-align: left;
       font-family: 'Merienda', cursive;
       font-size: 14px;
       margin: 40px 40px;
@@ -175,7 +179,7 @@ body {
     margin-right: auto;
   }
 
-  #liveCode, #sharpeiProject { 
+  a.liveCode, a.sharpeiProject { 
     font-family: 'Overlock SC', cursive; 
     width: 100px;
     height: 30px;
@@ -184,29 +188,14 @@ body {
     box-shadow: -5px 5px 5px #666;
     color: #FFF;
     cursor: pointer;
-      
+    text-align: center; 
+    padding: 5px; 
+    text-decoration:none;
   } 
 
-  #sharpeiProject { 
+  a.sharpeiProject { 
     margin-left: 70px;
   }
-
-  /*#liveCode, #sharpeiProject {
-    background-color: rgb(30, 99, 34);
-    margin: 50px;
-    height: auto;
-    color: azure;
-    font-family: 'Averia Libre', cursive;
-    font-size: 15px;
-    font-weight: 200;
-    text-align: center;
-    border: 0;
-    cursor: pointer;
-    border-radius:10px;
-    padding: 10px 20px;
-    margin-left: 15%;
-    float:none;
-  }*/
   
 }
 
