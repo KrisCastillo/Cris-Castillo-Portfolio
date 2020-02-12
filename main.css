@@ -51,7 +51,7 @@ body {
     padding: 20px;
   }
 
-  h1 {
+  .greeting {
     font-size: 24px;
   }
 
@@ -88,25 +88,25 @@ body {
     align-items: center;
   }  
 
-  .active {
+  .home {
     padding: 1%;
     float: right;
     color: white;
     font-size: 30px;
   }
 
-  h2 {
+  .myName {
     font-family: 'Parisienne', cursive;
     font-size: 60px;
     letter-spacing: 2px;
   }
   
-  h3 {
+  .quiz {
     font-family: 'Merienda', cursive;
     font-size: 30px;
   }
   
-  h2, h3 {    
+  .myName, .quiz {    
     color: white;
     text-align: center;
     margin: 30px 30px; 
