@@ -1,3 +1,4 @@
+	//show/hide of content
 	$('#crisProject').hide();
 	$('#crisInfo').hide(); 
 	$('#crisBio').hide();
@@ -22,6 +23,7 @@ function myWork() {
 	$("#crisInfo").show();
 }
 
+//Bio and Portfolio entries
 $('body').on('click','.resume', (event) => {
 	myPortfolio();
 })
@@ -29,4 +31,6 @@ $('body').on('click','.resume', (event) => {
 $('body').on('click','.portfolio', (event) => {
 	myWork();
 })
+
+
 
