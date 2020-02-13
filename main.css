@@ -202,6 +202,17 @@ a.liveCode, a.sharpeiProject {
 a.sharpeiProject { 
   margin-left: 70px;
 }
+  
+footer {
+  display: block;
+  position:absolute;
+  bottom:5px;
+  right:10px;
+  font-family: 'Overlock SC', cursive;
+  font-size: 10px;
+  text-align: right;
+  color: white;
+}
 
 }
 
@@ -248,17 +259,6 @@ a.sharpeiProject {
   font-size: 15px;
 }
 
-}
-
-footer {
-  display: block;
-  position:absolute;
-  bottom:5px;
-  right:10px;
-  font-family: 'Overlock SC', cursive;
-  font-size: 8px;
-  text-align: right;
-  color: white;
 }
 
 @media (min-width: 950px) {
