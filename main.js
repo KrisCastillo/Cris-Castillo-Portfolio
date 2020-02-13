@@ -22,3 +22,11 @@ function myWork() {
 	$("#crisInfo").show();
 }
 
+$('body').on('click','.resume', (event) => {
+	myPortfolio();
+})
+
+$('body').on('click','.portfolio', (event) => {
+	myWork();
+})
+
