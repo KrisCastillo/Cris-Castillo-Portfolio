@@ -1,292 +1,305 @@
  * {
-    box-sizing: border-box;
-  } 
+  box-sizing: border-box;
+} 
 
 body {
 
-  background-color: black;
+background-color: black;
 }
 
 @media (min-aspect-ratio: 21/9) {
-  .fullscreen-bg__video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: auto;
-    height: auto;
-  }
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
 
 }
 
 @media (max-aspect-ratio: 21/9) {
 
-  .fullscreen-bg__video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-  }
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
 
-  .fullscreen-bg {
-    position: absolute;
-    top: 150px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
-  }
+.fullscreen-bg {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
 
-  .content {
-    font-family: 'Overlock SC', cursive;
-    font-size: 18px;
-    color: azure;
-    text-align: center;
-    line-height : 25px;
-    position: fixed;
-    bottom: 30px;
-    margin: auto auto;
-    width: 95%;
-    padding: 20px;
-  }
+.content {
+  font-family: 'Overlock SC', cursive;
+  font-size: 18px;
+  color: azure;
+  text-align: center;
+  line-height : 25px;
+  position: fixed;
+  bottom: 30px;
+  margin: auto auto;
+  width: 95%;
+  padding: 20px;
+}
 
+
+#myBtn {
+  font-family: 'Overlock SC', cursive;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: rgb(206, 68, 149);
+  box-shadow: -5px 5px 5px #666;
+  color: #FFF;
+  cursor: pointer;
+}
+
+
+.navbar {
+  background-color: rgb(206, 68, 149);
+  width: 100%;
+  opacity: 0.7;
+  height: 50px; 
+}
+
+#crisInfo li {
+  display: inline;
+  align-items: center;
+  text-align: center;
+}
+
+#crisInfo ul {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 13px;
+  margin: 0px;
+}
+
+.info {
+  float: left;
+  margin-left: 20px;
   
-  #myBtn {
-    font-family: 'Overlock SC', cursive;
-    width: 100px;
-    height: 30px;
-    border-radius: 15px 15px 15px 15px;
-    background-color: rgb(206, 68, 149);
-    box-shadow: -5px 5px 5px #666;
-    color: #FFF;
-    cursor: pointer;
-  }
- 
-  
-  .link-container{
-    display: flex;
-    align-items: center;
-    background-color: rgb(206, 68, 149);
-    width: 100%;
-    opacity: 0.7;
-    height: 50px; 
-  }
-  
-  .contact-link {
-    padding: 1%;
-    display: flex;
-    align-items: center;
-   }
-  
-  .link-for-hire{
-    padding: 1%;
-    position: relative;
-    align-items: center;
+}
+
+.portfolio, .resume {
+  float: right;  
+  text-decoration: none;
+  margin-right: 50px;
+  margin-left: 20px;
+  color: azure;
+}
+
+
+.icons li img {
+  width:30px;
+  height:30px;
+}
+
+.myName {
+  font-family: 'Parisienne', cursive;
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+.quiz {
+  font-family: 'Merienda', cursive;
+  font-size: 30px;
+}
+
+.myName, .quiz {    
+  color: white;
+  text-align: center;
+  margin: 30px 30px; 
   }  
 
-  .home {
-    padding: 1%;
-    float: right;
-    color: white;
-    font-size: 30px;
+.profilePhoto, .myProject {
+    display: block;
+    margin: auto;
+    width: 60%; 
   }
 
-  .myName {
-    font-family: 'Parisienne', cursive;
-    font-size: 60px;
-    letter-spacing: 2px;
+.profilePhoto {
+  -o-box-shadow:      12px 12px 29px #555;
+  -khtml-box-shadow:  12px 12px 29px #555;
+  -moz-box-shadow:    12px 12px 29px #555;
+  -webkit-box-shadow: 12px 12px 29px #555;
+  box-shadow:         12px 12px 29px #555;
+  }
+
+.myProject {
+  -webkit-box-shadow: 2px 2px 5px rgb(13, 240, 25);
+  -moz-box-shadow: 2px 2px 5px rgb(144, 236, 149);
   }
   
-  .quiz {
-    font-family: 'Merienda', cursive;
-    font-size: 30px;
-  }
-  
-  .myName, .quiz {    
+
+.bio, .description {
     color: white;
     text-align: left;
-    margin: 30px 30px; 
-    }  
-
-  .profilePhoto, .myProject {
-      display: block;
-      margin: auto;
-      width: 60%; 
-    }
-
-  .profilePhoto {
-    -o-box-shadow:      12px 12px 29px #555;
-    -khtml-box-shadow:  12px 12px 29px #555;
-    -moz-box-shadow:    12px 12px 29px #555;
-    -webkit-box-shadow: 12px 12px 29px #555;
-    box-shadow:         12px 12px 29px #555;
-    }
-
-  .myProject {
-    -webkit-box-shadow: 2px 2px 5px rgb(13, 240, 25);
-    -moz-box-shadow: 2px 2px 5px rgb(144, 236, 149);
-    }
-    
-  
-  .bio, .description {
-      color: white;
-      text-align: left;
-      font-family: 'Merienda', cursive;
-      font-size: 14px;
-      margin: 40px 40px;
-      padding: 0px;
-    }
-
-  #myWork {
-      font-family: 'Overlock SC', cursive;
-      display:block;
-      width: 300px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-  #projects {
-    width: 100px;
-    height: 30px;
-    border-radius: 15px 15px 15px 15px;
-    background-color: rgb(206, 68, 149);
-    box-shadow: -5px 5px 5px #666;
-    color: #FFF;
-    cursor: pointer;
+    font-family: 'Merienda', cursive;
+    font-size: 14px;
+    margin: 40px 40px;
+    padding: 0px;
   }
 
-  
-
-  .myProject:hover {
-    border-radius:50%;
-    -webkit-border-radius:50%;
-    -webkit-box-shadow: 0px 0px 15px 15px rgb(30, 99, 34);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2)
-    
-  }
-  #codes {
+#myWork {
+    font-family: 'Overlock SC', cursive;
     display:block;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  a.liveCode, a.sharpeiProject { 
-    font-family: 'Overlock SC', cursive; 
-    width: 100px;
-    height: 30px;
-    border-radius: 15px 15px 15px 15px;
-    background-color: rgb(30, 99, 34);
-    box-shadow: -5px 5px 5px #666;
-    color: #FFF;
-    cursor: pointer;
-    text-align: center; 
-    padding: 5px; 
-    text-decoration:none;
-  } 
+#projects {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: rgb(206, 68, 149);
+  box-shadow: -5px 5px 5px #666;
+  color: #FFF;
+  cursor: pointer;
+}
 
-  a.sharpeiProject { 
-    margin-left: 70px;
-  }
+
+
+.myProject:hover {
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -webkit-box-shadow: 0px 0px 15px 15px rgb(30, 99, 34);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
   
+}
+#codes {
+  display:block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.liveCode, a.sharpeiProject { 
+  font-family: 'Overlock SC', cursive; 
+  width: 100px;
+  height: 30px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: rgb(30, 99, 34);
+  box-shadow: -5px 5px 5px #666;
+  color: #FFF;
+  cursor: pointer;
+  text-align: center; 
+  padding: 5px; 
+  text-decoration:none;
+} 
+
+a.sharpeiProject { 
+  margin-left: 70px;
+}
+
 }
 
 @media (min-width: 600px) {  
-  .fullscreen-bg {
-    top: 50px;    
-  }
+.fullscreen-bg {
+  top: 50px;    
+}
 
-  .profilePhoto {
-    width: 40%; 
-  }
+.profilePhoto {
+  width: 40%; 
+}
 }
 
 @media (min-width: 760px) {
-  .fullscreen-bg {
-    top: 10px;
-  }
+.fullscreen-bg {
+  top: 10px;
+}
 
-  .profilePhoto {
-    float: right;
-    width: 40%; 
-    margin-right: 50px;
-    margin-left: 70px;
-  }
+.profilePhoto {
+  float: right;
+  width: 40%; 
+  margin-right: 50px;
+  margin-left: 70px;
+}
 
-  .bio {
-    margin-top: 100px;
-    font-size: 15px;
-  }
+.bio {
+  margin-top: 100px;
+  font-size: 15px;
+}
 
-  .description {
-    text-align: center;
-    font-size: 15px;
-  }
+.description {
+  text-align: center;
+  font-size: 15px;
+}
 
 }
 
 @media (min-width: 950px) {
-  .fullscreen-bg {
-    top: 0px;
-  }
+.fullscreen-bg {
+  top: 0px;
+}
 
-  .content {
-    bottom: 20px;
-  }
- 
-  #myBtn {
-    margin: 20px auto;
-  }
+.content {
+  bottom: 20px;
+}
 
-  .profilePhoto {
-    width: 40%; 
-    margin-right: 70px;
-    margin-left: 100px;
-  }
+#myBtn {
+  margin: 20px auto;
+}
 
-  .bio{
-    margin-top: 70px;
-    font-size: 16px;
-  }
+.profilePhoto {
+  width: 40%; 
+  margin-right: 70px;
+  margin-left: 100px;
+}
 
-  .myProject {
-    width: 60%;
-  }
+.bio{
+  margin-top: 70px;
+  font-size: 16px;
+}
 
-  .description {
-    font-size: 16px;
-  }
+.myProject {
+  width: 60%;
+}
+
+.description {
+  font-size: 16px;
+}
 }
 
 @media (min-width: 1200px) {
-  .fullscreen-bg__video {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .content {
-    bottom: 5px;
-  }
- 
-  #myBtn {
-    margin: 5px auto;
-  }
+.fullscreen-bg__video {
+  width: 100%;
+  height: 100%;
+}
 
-  .profilePhoto {
-    width: 30%; 
-  }
+.content {
+  bottom: 5px;
+}
 
-  .bio {
-    margin-top: 50px;
-    padding: 70px;
-  }
+#myBtn {
+  margin: 5px auto;
+}
 
-  .myProject {
-    width: 45%;
-  }
+.profilePhoto {
+  width: 30%; 
+}
+
+.bio {
+  margin-top: 50px;
+  padding: 70px;
+}
+
+.myProject {
+  width: 45%;
+}
 }
